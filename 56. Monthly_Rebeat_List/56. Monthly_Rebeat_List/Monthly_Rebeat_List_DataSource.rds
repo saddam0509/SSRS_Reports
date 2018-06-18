@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Monthly_Rebeat_List_DataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>ec81e47d-e8d5-406a-8a03-388864c2a165</DataSourceID>
+</RptDataSource>

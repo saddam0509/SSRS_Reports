@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "57. Second_Ledger_Register", "57. Second_Ledger_Register\57. Second_Ledger_Register.rptproj", "{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Debug|Default.ActiveCfg = Debug
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Debug|Default.Build.0 = Debug
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Debug|Default.Deploy.0 = Debug
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.DebugLocal|Default.Build.0 = DebugLocal
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Release|Default.ActiveCfg = Release
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Release|Default.Build.0 = Release
+		{D097F83D-420C-4AFB-A256-4EF38E0F4C5B}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

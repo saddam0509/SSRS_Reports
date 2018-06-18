@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Buro_Receipt_Payments", "Buro_Receipt_Payments\Buro_Receipt_Payments.rptproj", "{33AC96D2-72C7-4810-822A-19C02E6D9793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Debug|Default.ActiveCfg = Debug
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Debug|Default.Build.0 = Debug
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Debug|Default.Deploy.0 = Debug
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.DebugLocal|Default.Build.0 = DebugLocal
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Release|Default.ActiveCfg = Release
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Release|Default.Build.0 = Release
+		{33AC96D2-72C7-4810-822A-19C02E6D9793}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

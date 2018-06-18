@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Gen_Acc_Statement">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>6855a0eb-0b0f-4974-8da9-9c8484891117</DataSourceID>
+</RptDataSource>

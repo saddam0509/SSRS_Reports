@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Acc_Cash_Book_DataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>c9fdb45f-204c-423e-9208-4c658753da61</DataSourceID>
+</RptDataSource>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ReceiptsAndPaymentsDataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>8bca7160-efcf-4868-9f5c-62800518ee12</DataSourceID>
+</RptDataSource>

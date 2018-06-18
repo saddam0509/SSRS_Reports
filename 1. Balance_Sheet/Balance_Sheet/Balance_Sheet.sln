@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Balance_Sheet", "Balance_Sheet\Balance_Sheet.rptproj", "{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Debug|Default.ActiveCfg = Debug
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Debug|Default.Build.0 = Debug
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Debug|Default.Deploy.0 = Debug
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.DebugLocal|Default.Build.0 = DebugLocal
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Release|Default.ActiveCfg = Release
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Release|Default.Build.0 = Release
+		{5F7D7DCE-6B8D-455E-9915-586CAB2DCF65}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

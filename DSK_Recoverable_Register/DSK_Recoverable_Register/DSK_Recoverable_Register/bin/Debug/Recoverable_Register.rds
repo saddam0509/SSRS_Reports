@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Recoverable_Register">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerDSKTraining</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>55e36af5-be5e-4c60-9f18-d97586bfe314</DataSourceID>
+</RptDataSource>

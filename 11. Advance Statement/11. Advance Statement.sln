@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "11. Advance Statement", "11. Advance Statement\11. Advance Statement.rptproj", "{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Debug|Default.ActiveCfg = Debug
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Debug|Default.Build.0 = Debug
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Debug|Default.Deploy.0 = Debug
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.DebugLocal|Default.Build.0 = DebugLocal
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Release|Default.ActiveCfg = Release
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Release|Default.Build.0 = Release
+		{5DC61DD7-3A33-46C4-9496-A97DD54BD65E}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

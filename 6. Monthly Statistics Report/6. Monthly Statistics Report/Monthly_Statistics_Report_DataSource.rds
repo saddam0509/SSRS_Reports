@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Monthly_Statistics_Report_DataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>86e99878-16bf-42e5-97c6-2a0636f1bbea</DataSourceID>
+</RptDataSource>

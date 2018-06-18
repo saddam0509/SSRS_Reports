@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Buro_Member_Dropout_list", "Buro_Member_Dropout_list\Buro_Member_Dropout_list.rptproj", "{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Debug|Default.ActiveCfg = Debug
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Debug|Default.Build.0 = Debug
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Debug|Default.Deploy.0 = Debug
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.DebugLocal|Default.Build.0 = DebugLocal
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Release|Default.ActiveCfg = Release
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Release|Default.Build.0 = Release
+		{DC632BB2-8881-4F7E-86AF-7B59DA23B96A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

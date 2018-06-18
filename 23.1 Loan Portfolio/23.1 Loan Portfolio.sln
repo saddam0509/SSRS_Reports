@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "23.1 Loan Portfolio", "23.1 Loan Portfolio\23.1 Loan Portfolio.rptproj", "{09015508-C4D5-49B7-8493-40FFECCA9273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Debug|Default.ActiveCfg = Debug
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Debug|Default.Build.0 = Debug
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Debug|Default.Deploy.0 = Debug
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.DebugLocal|Default.Build.0 = DebugLocal
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Release|Default.ActiveCfg = Release
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Release|Default.Build.0 = Release
+		{09015508-C4D5-49B7-8493-40FFECCA9273}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

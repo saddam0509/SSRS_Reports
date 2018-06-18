@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "6. Monthly Statistics Report", "6. Monthly Statistics Report\6. Monthly Statistics Report.rptproj", "{C74A87C9-B389-4F9B-882B-7D62EF306FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Debug|Default.ActiveCfg = Debug
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Debug|Default.Build.0 = Debug
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Debug|Default.Deploy.0 = Debug
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.DebugLocal|Default.Build.0 = DebugLocal
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Release|Default.ActiveCfg = Release
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Release|Default.Build.0 = Release
+		{C74A87C9-B389-4F9B-882B-7D62EF306FA0}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

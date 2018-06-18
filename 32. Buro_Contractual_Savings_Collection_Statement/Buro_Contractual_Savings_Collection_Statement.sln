@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Buro_Contractual_Savings_Collection_Statement", "Buro_Contractual_Savings_Collection_Statement\Buro_Contractual_Savings_Collection_Statement.rptproj", "{356ACE1C-5AEB-47B3-9CF9-D423A7943293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Debug|Default.ActiveCfg = Debug
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Debug|Default.Build.0 = Debug
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Debug|Default.Deploy.0 = Debug
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.DebugLocal|Default.Build.0 = DebugLocal
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Release|Default.ActiveCfg = Release
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Release|Default.Build.0 = Release
+		{356ACE1C-5AEB-47B3-9CF9-D423A7943293}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DS_CreditVoucher">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBURO</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>a47152cd-38e5-4018-9f01-f40ead05fccb</DataSourceID>
+</RptDataSource>

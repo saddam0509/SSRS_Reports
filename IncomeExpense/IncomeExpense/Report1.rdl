@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=192.192.192.228;Initial Catalog=gBankerBUROBD</ConnectString>
+      </ConnectionProperties>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+      <rd:DataSourceID>de74d36d-44ca-484c-a2ba-09cff5e33e1a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>Proc_Rpt_Acc_IncExp '01-Jan-2018','31-Jan-2018',8,3,'',0</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="OfficeCode">
+          <DataField>OfficeCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="OfficeName">
+          <DataField>OfficeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AccType">
+          <DataField>AccType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParentCode">
+          <DataField>ParentCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParentName">
+          <DataField>ParentName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AccCode">
+          <DataField>AccCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AccName">
+          <DataField>AccName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AccLevel">
+          <DataField>AccLevel</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="cur_month">
+          <DataField>cur_month</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="cur_year">
+          <DataField>cur_year</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="cur_month_Surplus">
+          <DataField>cur_month_Surplus</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="cur_year_Surplus">
+          <DataField>cur_year_Surplus</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="logo">
+          <DataField>logo</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+        <Field Name="orgaddress">
+          <DataField>orgaddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>2.5cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>5.25167cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.17437cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.5cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.5cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox2">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Codes</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox4">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Description</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>To Previous Month</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Current Month</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox12">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>To Date</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox12</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AccCode">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!AccCode.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AccCode</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AccName">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!AccName.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AccName</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="cur_month">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!cur_month.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>cur_month</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="cur_year">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!cur_year.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>cur_year</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember>
+                  <Group Name="Details" />
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!AccType.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet1</DataSetName>
+            <Top>0.36724cm</Top>
+            <Left>0.51308cm</Left>
+            <Height>1.2cm</Height>
+            <Width>15.92604cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>1.67708in</Height>
+        <Style />
+      </Body>
+      <Width>8.15625in</Width>
+      <Page>
+        <PageHeader>
+          <Height>1.56847in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox8">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Branch Name: </Value>
+                      <Style />
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Fields!OfficeName.Value</Value>
+                      <Style />
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
+                      <Style />
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Fields!OfficeCode.Value</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox8</rd:DefaultName>
+              <Top>0.3937cm</Top>
+              <Left>7.50125cm</Left>
+              <Height>0.6cm</Height>
+              <Width>8.37375cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Constant">Income Expense</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>1.17009cm</Top>
+              <Left>7.50125cm</Left>
+              <Height>0.6cm</Height>
+              <Width>3.69062cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox3">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Fields!logo.Value</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <Top>0.3937cm</Top>
+              <Left>0.52599cm</Left>
+              <Height>3.29875cm</Height>
+              <Width>4.61667cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>11.69in</PageHeight>
+        <PageWidth>8.27in</PageWidth>
+        <LeftMargin>0.3937in</LeftMargin>
+        <RightMargin>0.3937in</RightMargin>
+        <TopMargin>0.3937in</TopMargin>
+        <BottomMargin>0.3937in</BottomMargin>
+        <ColumnSpacing>0.05118in</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="from_date">
+      <DataType>DateTime</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>01/01/2018 00:00:00</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>from date</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="to_date">
+      <DataType>DateTime</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>01/31/2018 00:00:00</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>to date</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="office_id">
+      <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>8</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>office id</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AccLevel">
+      <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>3</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Acc Level</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="And_Condition">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>And Condition</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AllOffice">
+      <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>0</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>All Office</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>from_date</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>to_date</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>office_id</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>AccLevel</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>And_Condition</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>AllOffice</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="gc_logo_300">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>8e126329-1550-4ce7-b5cb-e972cbd0ffdf</rd:ReportID>
+</Report>

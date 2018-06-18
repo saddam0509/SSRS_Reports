@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>LoanCollectionSheetDataSource</DataSourceReference>
+      <CommandText>RPT_LoanCollectionSheet_Buro 1,54,8,0,0,0,'2018-04-01'</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="AccNo">
+        <DataField>AccNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MemberCode">
+        <DataField>MemberCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CustomerName">
+        <DataField>CustomerName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GroupNo">
+        <DataField>GroupNo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="LoanSub">
+        <DataField>LoanSub</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OpeningDisburseAmount">
+        <DataField>OpeningDisburseAmount</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="DisburseDate">
+        <DataField>DisburseDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="NoOfRealizableInst">
+        <DataField>NoOfRealizableInst</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="RealizedAmount">
+        <DataField>RealizedAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OverdueInstNo">
+        <DataField>OverdueInstNo</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OverdueAmount">
+        <DataField>OverdueAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="AdvanceRealize">
+        <DataField>AdvanceRealize</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="LoanOutstanding">
+        <DataField>LoanOutstanding</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="RealizableAmount">
+        <DataField>RealizableAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyDisburseAmount">
+        <DataField>MonthlyDisburseAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Date1">
+        <DataField>Date1</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Date2">
+        <DataField>Date2</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Date3">
+        <DataField>Date3</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Date4">
+        <DataField>Date4</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Date5">
+        <DataField>Date5</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="TotalRealized">
+        <DataField>TotalRealized</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyOverdueInstNo">
+        <DataField>MonthlyOverdueInstNo</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyOverdueAmount">
+        <DataField>MonthlyOverdueAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyAdvanceRealize">
+        <DataField>MonthlyAdvanceRealize</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ClosingNoOfRealizableInst">
+        <DataField>ClosingNoOfRealizableInst</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ClosingRealizableAmount">
+        <DataField>ClosingRealizableAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ClosingTotalRealized">
+        <DataField>ClosingTotalRealized</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="RebateAmount">
+        <DataField>RebateAmount</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ClosingLoanOutstanding">
+        <DataField>ClosingLoanOutstanding</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="LoanAtRisk">
+        <DataField>LoanAtRisk</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Logo">
+        <DataField>Logo</DataField>
+        <rd:TypeName>System.Byte[]</rd:TypeName>
+      </Field>
+      <Field Name="OrgAddress">
+        <DataField>OrgAddress</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrgName">
+        <DataField>OrgName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OfficeAddress">
+        <DataField>OfficeAddress</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BranchCode">
+        <DataField>BranchCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BranchName">
+        <DataField>BranchName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

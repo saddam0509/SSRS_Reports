@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "31. General Savings-1 Collection Statement", "31. General Savings-1 Collection Statement\31. General Savings-1 Collection Statement.rptproj", "{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Debug|Default.ActiveCfg = Debug
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Debug|Default.Build.0 = Debug
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Debug|Default.Deploy.0 = Debug
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.DebugLocal|Default.Build.0 = DebugLocal
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Release|Default.ActiveCfg = Release
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Release|Default.Build.0 = Release
+		{984DFBDD-4ADC-4372-BA41-6C061CE6A3D8}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

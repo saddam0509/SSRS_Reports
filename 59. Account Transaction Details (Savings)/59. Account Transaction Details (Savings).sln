@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "59. Account Transaction Details (Savings)", "59. Account Transaction Details (Savings)\59. Account Transaction Details (Savings).rptproj", "{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Debug|Default.ActiveCfg = Debug
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Debug|Default.Build.0 = Debug
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Debug|Default.Deploy.0 = Debug
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.DebugLocal|Default.Build.0 = DebugLocal
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Release|Default.ActiveCfg = Release
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Release|Default.Build.0 = Release
+		{E70A02FD-ED47-4648-AAA5-030C2CF4DCBE}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

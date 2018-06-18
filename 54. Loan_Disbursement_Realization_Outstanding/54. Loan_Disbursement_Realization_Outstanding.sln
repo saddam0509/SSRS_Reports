@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "54. Loan_Disbursement_Realization_Outstanding", "54. Loan_Disbursement_Realization_Outstanding\54. Loan_Disbursement_Realization_Outstanding.rptproj", "{FCA34026-12B8-4533-B34F-494B50168A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Debug|Default.ActiveCfg = Debug
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Debug|Default.Build.0 = Debug
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Debug|Default.Deploy.0 = Debug
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.DebugLocal|Default.Build.0 = DebugLocal
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Release|Default.ActiveCfg = Release
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Release|Default.Build.0 = Release
+		{FCA34026-12B8-4533-B34F-494B50168A4A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

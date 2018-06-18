@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "25. Acc_Cash_Book", "25. Acc_Cash_Book\25. Acc_Cash_Book.rptproj", "{B866B59F-D8AE-4C79-842C-673714581017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B866B59F-D8AE-4C79-842C-673714581017}.Debug|Default.ActiveCfg = Debug
+		{B866B59F-D8AE-4C79-842C-673714581017}.Debug|Default.Build.0 = Debug
+		{B866B59F-D8AE-4C79-842C-673714581017}.Debug|Default.Deploy.0 = Debug
+		{B866B59F-D8AE-4C79-842C-673714581017}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B866B59F-D8AE-4C79-842C-673714581017}.DebugLocal|Default.Build.0 = DebugLocal
+		{B866B59F-D8AE-4C79-842C-673714581017}.Release|Default.ActiveCfg = Release
+		{B866B59F-D8AE-4C79-842C-673714581017}.Release|Default.Build.0 = Release
+		{B866B59F-D8AE-4C79-842C-673714581017}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

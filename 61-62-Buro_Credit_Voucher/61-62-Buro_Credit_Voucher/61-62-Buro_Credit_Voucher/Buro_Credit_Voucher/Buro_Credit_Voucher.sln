@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Buro_Credit_Voucher", "Buro_Credit_Voucher\Buro_Credit_Voucher.rptproj", "{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Debug|Default.ActiveCfg = Debug
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Debug|Default.Build.0 = Debug
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Debug|Default.Deploy.0 = Debug
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.DebugLocal|Default.Build.0 = DebugLocal
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Release|Default.ActiveCfg = Release
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Release|Default.Build.0 = Release
+		{EDCBF6C2-B9D3-41C0-B64F-1419BB700772}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

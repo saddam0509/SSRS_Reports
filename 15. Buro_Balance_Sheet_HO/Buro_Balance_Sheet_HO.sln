@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Buro_Balance_Sheet_HO", "Buro_Balance_Sheet_HO\Buro_Balance_Sheet_HO.rptproj", "{DCFA2241-DA03-46C4-85D4-35E987A98BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Debug|Default.ActiveCfg = Debug
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Debug|Default.Build.0 = Debug
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Debug|Default.Deploy.0 = Debug
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.DebugLocal|Default.Build.0 = DebugLocal
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Release|Default.ActiveCfg = Release
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Release|Default.Build.0 = Release
+		{DCFA2241-DA03-46C4-85D4-35E987A98BF4}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

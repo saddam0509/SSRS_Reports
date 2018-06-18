@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "56. Monthly_Rebeat_List", "56. Monthly_Rebeat_List\56. Monthly_Rebeat_List.rptproj", "{AC5D74DF-2220-4392-B615-F95BD893B540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Debug|Default.ActiveCfg = Debug
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Debug|Default.Build.0 = Debug
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Debug|Default.Deploy.0 = Debug
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.DebugLocal|Default.Build.0 = DebugLocal
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Release|Default.ActiveCfg = Release
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Release|Default.Build.0 = Release
+		{AC5D74DF-2220-4392-B615-F95BD893B540}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
